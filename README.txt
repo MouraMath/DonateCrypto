@@ -39,7 +39,7 @@ MetaMask ou carteira Web3 compatível
 Conhecimentos básicos de blockchain
 
 Curso
-Projeto desenvolvido durante a Web3 Week de Luiz Duarte.
+Projeto desenvolvido durante a Web3 Week de Luiz Duarte (https://www.luiztools.com.br/w3w)
 
 Autor
 MouraMath
@@ -84,7 +84,7 @@ MetaMask or compatible Web3 wallet
 Basic blockchain knowledge
 
 Course
-Project developed during Web3 Week by Luiz Duarte.
+Project developed during Web3 Week by Luiz Duarte (https://www.luiztools.com.br/w3w)
 
 Author
 MouraMath
