@@ -1,28 +1,90 @@
-REMIX DEFAULT WORKSPACE
+PORTUGUÊS || English
 
-Remix default workspace is present when:
-i. Remix loads for the very first time 
-ii. A new workspace is created with 'Default' template
-iii. There are no files existing in the File Explorer
+DonateCrypto
+Um smart contract em Solidity para doações em criptomoedas desenvolvido durante o curso Web3 Week.
 
-This workspace contains 3 directories:
+Sobre o Projeto
+Parte 1: Smart contract básico de doações
 
-1. 'contracts': Holds three contracts with increasing levels of complexity.
-2. 'scripts': Contains four typescript files to deploy a contract. It is explained below.
-3. 'tests': Contains one Solidity test file for 'Ballot' contract & one JS test file for 'Storage' contract.
+Parte 2: Implementação da carteira Web3 *TO DO
 
-SCRIPTS
+Parte 3: Desenvolvimento de interface com React *TO DO
 
-The 'scripts' folder has four typescript files which help to deploy the 'Storage' contract using 'web3.js' and 'ethers.js' libraries.
+Tecnologias
+Solidity
 
-For the deployment of any other contract, just update the contract name from 'Storage' to the desired contract and provide constructor arguments accordingly 
-in the file `deploy_with_ethers.ts` or  `deploy_with_web3.ts`
+Ethereum/EVM
 
-In the 'tests' folder there is a script containing Mocha-Chai unit tests for 'Storage' contract.
+React (próximas etapas)
 
-To run a script, right click on file name in the file explorer and click 'Run'. Remember, Solidity file must already be compiled.
-Output from script will appear in remix terminal.
+Web3.js/ethers.js
 
-Please note, require/import is supported in a limited manner for Remix supported modules.
-For now, modules supported by Remix are ethers, web3, swarmgw, chai, multihashes, remix and hardhat only for hardhat.ethers object/plugin.
-For unsupported modules, an error like this will be thrown: '<module_name> module require is not supported by Remix IDE' will be shown.
+Como Usar
+Clone o repositório
+
+Compile o contrato com Solidity 0.8.x
+
+Faça deploy em uma testnet
+
+Estrutura
+text
+DonateCrypto/
+├── contracts/
+│   └── DonateCrypto.sol
+└── README.md
+
+Pré-requisitos
+MetaMask ou carteira Web3 compatível
+
+Conhecimentos básicos de blockchain
+
+Curso
+Projeto desenvolvido durante a Web3 Week de Luiz Duarte.
+
+Autor
+MouraMath
+
+----------------------------------------------------------------------------
+
+DonateCrypto
+A Solidity smart contract for cryptocurrency donations developed during the Web3 Week course.
+
+About the Project
+Part 1: Basic donation smart contract
+
+Part 2: Web3 wallet implementation *TO DO
+
+Part 3: Interface development with React* TO DO
+
+Technologies
+Solidity
+
+Ethereum/EVM
+
+React (upcoming stages)
+
+Web3.js/ethers.js
+
+How to Use
+Clone the repository
+
+Compile the contract with Solidity 0.8.x
+
+Deploy on a testnet
+
+Structure
+text
+DonateCrypto/
+├── contracts/
+│   └── DonateCrypto.sol
+└── README.md
+Prerequisites
+MetaMask or compatible Web3 wallet
+
+Basic blockchain knowledge
+
+Course
+Project developed during Web3 Week by Luiz Duarte.
+
+Author
+MouraMath
